@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: jguzaa/python-helloworld:1.1.0 
+      - image: jguzaa/python-helloworld:1.0.0 
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
