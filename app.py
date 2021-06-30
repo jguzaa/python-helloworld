@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     ## Log implementation
     app.logger.info('Main request successfull')
-    return "Hello World! From Python"
+    return "Hello World! I'm Jet"
 
 @app.route('/status')
 def healthcheck():
